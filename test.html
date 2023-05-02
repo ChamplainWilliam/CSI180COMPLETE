@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <title>UNO</title>
+    </head>
+
+    <body onload="testStartingCard(); testStartingSeven(); testOpponentStartingSeven()">
+        <!--
+            I want enemy deck in the top middle. Text is already centered with text-align:center in css, but is currently from body tag.
+            May change, 
+            img src for cards, dimensions of images are changed with width="" and height="" in pixels
+            problem may be that not all screens are the same dimension. 
+            -->
+        <div id="enemyDeck">
+            <div>
+                
+            </div>
+        </div>
+        <div id="playField" >    
+            <div id="left">
+                
+            </div>
+            
+            <div id="middle">
+                
+            </div>
+
+            <div id="right" >
+                <img src="cards/back.png" onclick="testDrawCard()">
+
+
+            </div>
+
+        </div>
+        <div id="myDeck">
+            <div>
+                
+            </div>
+        </div>
+        <button onclick="switchSides()">End Turn</button>
+    </body>
+
+    </html>

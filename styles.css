@@ -1,0 +1,62 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: green;
+}
+#index {
+    border: 3px solid;
+    outline: none;
+    cursor: pointer;
+    font-size: 1000%;
+    font-weight: bold;
+}
+#clickPlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 50px;
+}
+
+#uno {
+    width: 500px;
+    cursor: pointer;
+}
+
+#enemyDeck {
+    margin-bottom: 200px;
+    justify-content: center;
+    text-align: center;
+}
+#playField {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: right;
+}
+#myDeck {
+    margin-top: 500px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#left {
+    float:left;
+    width: 32%;
+    justify-content: center;
+    text-align: center;
+}
+#middle {
+    float: left;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+#right {
+    float: left;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
